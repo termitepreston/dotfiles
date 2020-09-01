@@ -1,0 +1,3 @@
+# use aria2c as downloader
+--external-downloader aria2c
+--external-downloader-args '-m 0 -x 8'
