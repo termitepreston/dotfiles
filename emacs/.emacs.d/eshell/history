@@ -1,0 +1,53 @@
+cd ..
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cd ..
+cargo run --example widget_gallery --features "im svg image"
+cargo run --example widget_gallery --features "im svg image"
+cargo run --example widget_gallery --features "im svg image"
+cargo run --example widget_gallery --features "im svg image"
+cd ..
+clear
+luajit main.lua 
+rustup toolchain
+rustup toolchain list
+rustup default nightly-x86_64-unknown-linux-gnu
+rustc --version
+rustc simd.rs 
+rustup toolchain list
+rustup default stable-x86_64-unknown-linux-gnu
+cargo run
+cd ..
+cargo run
+clear
+clear
+clear
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+clear
+clear
+clear
+clear
+gcc hello-triangle.cpp \-o hello-triangle
+g++ hello-triangle.cpp -o hello-triangle
+./hello-triangle 
+g++ hello-triangle.cpp $(pkg-config --libs glew glfw3) -o hello-triangle
+g++ hello-triangle.cpp $(pkg-config --libs glew glfw3) -o hello-triangle
+pkg-config 
+pkg-config --libs glew glfw3
+g++ hello-triangle.cpp $(pkg-config --libs glew glfw3) -o hello-triangle
+echo $(pkg-config --libs glew glfw3)
+pkg-config --cflags --libs glew glfw3
+echo `pkg-config --libs glew glfw3`
