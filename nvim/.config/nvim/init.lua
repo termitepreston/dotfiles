@@ -1,0 +1,1 @@
+-- vim set jk to escape.
