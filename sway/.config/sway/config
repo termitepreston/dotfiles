@@ -141,6 +141,9 @@ output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
     assign [app_id="firefox"] workspace number 2
     assign [app_id="org.pwmt.zathura"] workspace number 3
 
+# Make graphics programming project windows floating.
+    for_window [app_id="vk.termitepreston.github.io"] floating enable
+
 #
 # Layout stuff:
 #
