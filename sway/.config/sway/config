@@ -134,6 +134,13 @@ output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
     bindsym $mod+Shift+0 move container to workspace number 10
     # Note: workspaces can have any name you want, not just numbers.
     # We just use 1-10 as the default.
+
+#
+# Automatic workspace assignment for apps:
+#
+    assign [app_id="firefox"] workspace number 2
+    assign [app_id="org.pwmt.zathura"] workspace number 3
+
 #
 # Layout stuff:
 #
